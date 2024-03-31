@@ -8,7 +8,43 @@ a {
   font-size: 30px;
 }
 
+div,
+p {
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin: 50px;
+}
+
 h1 {
   color: rgb(229, 208, 92);
   font-size: 48px;
+  text-align: center;
+}
+
+h2,
+h3 {
+  margin: 24px;
+  text-align: center;
+  font-size: 32px;
+}
+
+ul {
+  display: inline-block;
+  text-align: center;
+}
+
+div,
+ul {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 26px;
+}
+
+li {
+  padding: 8px;
 }
